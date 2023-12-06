@@ -1,3 +1,5 @@
 #!/bin/bash
+0 string SCHOOL School data file
+file -C -m school.magic
 file -m school.mgc your_school_data_file
-! :mime School
+
