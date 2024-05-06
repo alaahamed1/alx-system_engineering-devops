@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+c=1
+while [ $c -le 10 ]
+do
+	if [ $c -eq 4 ];
+	then
+		echo "bad luck"
+	elif [ $c -eq 8 ];
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	((c++))
+done
