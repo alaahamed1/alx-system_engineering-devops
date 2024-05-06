@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-c=0
 # while loop to display "Best School" 10 times
+c=0
 while [ $c -lt 10 ];
 do
 	echo "Best School"
